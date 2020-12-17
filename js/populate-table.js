@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-var array;
 var data = [];
 
 // POPULATE HOMPAGE - ALL
@@ -103,9 +102,9 @@ var data = [];
 
 function addClearButton(){
 	$("#example_filter").append("<button class='clear-search-button' onclick='clearSearch()' style='margin-left:5px;color:blue;'>clear</button>")
-	// $("#example_filter").append("<p style='margin-top:0px;margin-bottom:0px;color:grey;'>Ex: Bangkok Coworking<p>")
-	$("#example_filter").append("<div id='empty-div' style='font-size:24px; float:left; margin-left:15px; display:none;'>All 💯</div>")
-	$("input").attr("placeholder", "Ex: Bangkok Coworking");
+	$("#example_filter").append("<p style='margin-top:0px;margin-bottom:0px;color:grey;'>Search Multiple Keywords</p><p style='margin-top:0px;margin-bottom:0px;color:grey;'>Ex: Bangkok Coworking</p>")
+	// $("#example_filter").append("<div id='empty-div' style='font-size:24px; float:left; margin-left:15px; display:none;'>All 💯</div>")
+	$("input").attr("placeholder", "Type Here To Search");
 }
 
 function clearSearch(){
