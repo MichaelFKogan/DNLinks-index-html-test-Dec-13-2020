@@ -1,0 +1,30 @@
+body {
+background-color:#eee;
+}
+
+.website-title {
+  color: white;
+}
+
+.title{
+	color:white;
+}
+
+.column {
+  background-color: white;
+}
+
+.subtitle, li{
+	color:#1c1e21;
+}
+
+li:hover{
+	color: #0a58ca;
+	background-color: #eee;
+}
+
+a {
+    color: #1c1e21;
+    text-decoration: none;
+}
+

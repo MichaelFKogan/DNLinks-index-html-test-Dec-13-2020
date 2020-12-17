@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="">
+		<meta property="og:type" content="">
+		<meta property="og:url" content="">
+		<meta property="og:image" content="">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="apple-touch-icon" href="icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+
+
+		<meta name="theme-color" content="#fafafa">
+
+
+ <!-- DataTables Init Files CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+
+  <!-- Custom Table CSS -->
+  <!-- <link rel="stylesheet" href="css/table.css"> -->
+
+  <!-- DataTables Init Files JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+
+  <!-- DataTables Plugins - Responsive, Reorder -->
+  <script src="https://cdn.datatables.net/rowreorder/1.2.7/js/dataTables.rowReorder.min.js"></script>
+
+  <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.dataTables.min.css">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+
+  <!-- Firebase data -->
+  <script src="js/firebase-config.js"></script>
+  <script src="js/populate-table.js"></script>
+
+
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/width.css">	
+
+	</head>
+	<body>
+		<!-- TITLE -->
+		<div class="container">
+				<img id="bannerImage" class="mobile-hide" src="img/banner.jpg">
+				<div class="website-title">Digital Nomad Links</div>
+		</div>
+  <h3 style="text-align:center;"><a href="input.html" >Input.html</a></h3>
+		<br>
+
+
+		<!-- END TITLE -->
+		<div class="container" style="display:none;">
+
+
+			<!-- LIST -->
+			<!-- INPUT STYLE TEMPLATE -->
+			<div class="column-wrapper" style="display:none;">
+				<div class="title"><input type="text" id="input-title" name="title" placeholder="Remote Work"></div>
+
+				<div class="column">
+					<div class="subtitle"><input type="text" id="input-subtitle" name="title" placeholder="all"></div>
+						<ul>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+				</div>
+			</div>
+			<!-- END END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper travel-column">
+				<div class="column">
+				<div class="title">Travel 🗺️</div>					
+						<ul>
+						<div class="subtitle" >Top Links 💯</div>
+							<a href="https://www.google.com/maps/" target="_blank"><li>Google Maps</li></a>
+							<a href="https://www.google.com/travel/flights" target="_blank"><li>Google Flights</li></a>
+							<a href="https://airbnb.com" target="_blank"><li>AirBNB</li></a>
+							<a href="https://nomadlist.com/" target="_blank"><li>Nomadlist</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">Places 📍</div>
+							<a href="https://hoodmaps.com/" target="_blank"><li>Hood Maps</li></a>
+							<a href="https://www.google.com/travel/" target="_blank"><li>Google Travel</li></a>
+						<div class="subtitle" style="margin-top:23px;">FLIGHTS ✈️</div>							
+							<a href="https://www.airasia.com/en/" target="_blank"><li>Air Asia</li></a>
+						</ul>
+						<ul>						
+						<div class="subtitle">ACCOMODATION 🛏️</div>							
+							<a href="https://airbnb.com" target="_blank"><li>AirBNB</li></a>
+							<a href="https://agoda.com" target="_blank"><li>Agoda</li></a>
+							<a href="https://booking.com" target="_blank"><li>Booking.com</li></a>
+							<a href="https://couchsurfing.com" target="_blank"><li>Couchsurfing</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">FINANCE 💳</div>
+							<a href="https://www.reddit.com/r/personalfinance/comments/9onvbn/thoughts_on_charles_schwabb_checkings_account/" target="_blank"><li>Schwab Bank No ATM Fees</li></a>
+							<a href="https://transferwise.com/" target="_blank"><li>TransferWise</li></a>
+							<a href="https://www.revolut.com/" target="_blank"><li>Revolut</li></a>	
+						</ul>
+						<ul>
+						<div class="subtitle">HEALTH INSURANCE 🤕</div>
+							<a href="https://safetywing.com/" target="_blank"><li>Safety Wing</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">VISA 🛂</div>
+							<a href="https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens" target="_blank"><li>Visa Requirements For United States Citizens</li></a>
+							<a href="https://en.wikipedia.org/wiki/Category:Visa_requirements_by_nationality" target="_blank"><li>Visa Requirements By Nationality</li></a>
+						</ul>
+					</div>
+				</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper jobs-column" >
+				<div class="column">
+				<div class="title">Jobs 👔</div>
+						<ul>
+						<div class="subtitle">JOB BOARDS 📋</div>
+							<a href="https://remoteok.io/" target="_blank"><li>RemoteOK</li></a>
+							<a href="https://weworkremotely.com/" target="_blank"><li>We Work Remotely</li></a>
+							<a href="https://remote.co/" target="_blank"><li>Remote.co</li></a>
+							<a href="https://workew.com/" target="_blank"><li>Workew</li></a>
+							<a href="https://www.flexjobs.com/" target="_blank"><li>Flex Jobs</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle subtitle">JOB SEARCH 🔍</div>
+							<a href="https://www.google.com/search?ei=7j3TX5LhD9m1rQHv6L7IAg&q=remote+jobs+united+states&oq=jobs&gs_lcp=CgZwc3ktYWIQAzIKCAAQkQIQRhD5ATIICAAQsQMQkQIyDQguELEDEMcBEK8BEEMyBAgAEEMyBAgAEEMyBQgAELEDMgsILhCxAxDHARCvATILCC4QsQMQxwEQrwEyBQgAELEDMgUIABCxAzoECAAQRzoFCC4QkQI6BAguEEM6DgguELEDEIMBEMcBEK8BOggILhDHARCvAVDeDFjDDmDtEGgAcAR4AYABggOIAcoHkgEFMi0xLjKYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwih2tzf0MXtAhVYeH0KHVpOBT0QutcGKAB6BAgEEAQ#fpstate=tldetail&htivrt=jobs&htidocid=h3LADp8FyAzp9-Y2AAAAAA%3D%3D" target="_blank"><li>Google Jobs: remote</li></a>
+							<a href="https://www.linkedin.com/jobs/search/?geoId=103644278&keywords=remote&location=United%20States" target="_blank"><li>LinkedIn: remote</li></a>
+							<a href="https://www.indeed.com/q-remote-l-united-states-jobs.html" target="_blank"><li>Indeed: remote</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">FREELANCE 💻</div>
+							<a href="https://www.upwork.com/" target="_blank"><li>Upwork</li></a>
+							<a href="https://www.fiverr.com/" target="_blank"><li>Fiverr</li></a>
+						</ul>
+						<div class="subtitle">PASSIVE INCOME 💵</div>
+						<ul>
+							<a href="https://www.facebook.com/groups/digitalnomadquest" target="_blank"><li>Passive Income Entrepreneurs (PIE)</li></a>
+							<a href="https://www.reddit.com/r/passive_income/" target="_blank"><li>r/passive_income/</li></a>
+						</ul>
+						<div class="subtitle">JOB LIST 📑</div>
+						<ul>
+							<a href="https://github.com/lukasz-madon/awesome-remote-job" target="_blank"><li>awesome-remote-job</li></a>
+						</ul>	
+						<div class="subtitle">JOB IDEAS 💡</div>
+						<ul>
+							<a href="https://github.com/lukasz-madon/awesome-remote-job" target="_blank"><li>awesome-remote-job</li></a>
+						</ul>	
+			<!-- LIST -->
+
+				<div class="column">
+				<div class="title"><img src="./img/reddit-icon.png" style="height:24px; margin-right:5px;margin-bottom:3px; ">Reddit</div>
+						<ul>
+							<a href="https://www.reddit.com/r/digitalnomad/" target="_blank"><li>r/digitalnomad/</li></a>
+							<a href="https://www.reddit.com/r/travel/" target="_blank"><li>r/travel/</li></a>
+							<a href="https://www.reddit.com/r/solotravel/" target="_blank"><li>r/solotravel/</li></a>
+							<a href="https://www.reddit.com/r/Shoestring/" target="_blank"><li>r/Shoestring/</li></a>
+							<a href="https://www.reddit.com/r/travelblogs/" target="_blank"><li>r/travelblogs/</li></a>
+							<a href="https://www.reddit.com/r/onebag/" target="_blank"><li>r/onebag/</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">THAILAND 🇹🇭</div>
+							<a href="https://www.reddit.com/r/Thailand/" target="_blank"><li>r/Thailand/</li></a>
+							<a href="https://www.reddit.com/r/ThailandTourism/" target="_blank"><li>r/ThailandTourism/</li></a>
+							<a href="https://www.reddit.com/r/Bangkok/" target="_blank"><li>r/Bangkok/</li></a>
+							<a href="https://www.reddit.com/r/chiangmai/" target="_blank"><li>r/chiangmai/</li></a>
+						</ul>
+				</div>
+
+			<!-- END LIST -->
+				</div>
+			</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper esl-column">
+				<div class="column">
+				<div class="title">ESL 🧑‍🏫</div>
+						<ul>
+						<div class="subtitle">ONLINE 🖥️</div>
+							<a href="https://www.vipkid.com/" target="_blank"><li>VIPKid</li></a>
+							<a href="https://teacher.qkids.com/" target="_blank"><li>Qkids</li></a>
+							<a href="https://www.onlineenglishteaching.com/palfish" target="_blank"><li>PalFish</li></a>
+							<a href="https://www.dadaabc.com/en.html" target="_blank"><li>DaDa</li></a>
+							<a href="https://teacher.gogokid.com/" target="_blank"><li>GogoKid</li></a>
+							<a href="https://t.mmears.com/v2/home/" target="_blank"><li>Magic Ears</li></a>
+							<a href="https://www.whalesenglish.com/" target="_blank"><li>Whales English</li></a>
+							<a href="https://www.reddit.com/r/OnlineESLTeaching/comments/h01tqe/strong_warning_about_itutorgroup/" target="_blank"><li><strike>iTutorGroup</strike></li></a>						
+						</ul>
+						<ul>
+						<div class="subtitle">JOB BOARDS 🔍</div>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">JOB LIST 🔍</div>
+							<a href="https://onlineteachers.club/megalist/" target="_blank"><li>Online Teachers Club - Mega List</li></a>
+						</ul>						
+						<ul>
+						<div class="subtitle">FORUMS 💬</div>
+							<a href="https://www.eslcafe.com/job-center" target="_blank"><li>Dave's ESL Cafe</li></a>
+							<a href="https://www.reddit.com/r/OnlineESLTeaching/" target="_blank"><li>r/OnlineESLTeaching</li></a>
+						</ul>
+						<div class="subtitle">FACEBOOK GROUPS <img src="./img/facebook-icon.png" style="height:16px; margin-right:5px;margin-bottom:3px; "></div>
+						<ul>
+							<a href="https://www.facebook.com/groups/OTCJobs" target="_blank"><li>ONLINE ENGLISH TEACHING JOBS</li></a>
+							<a href="https://www.facebook.com/groups/350280838779996/" target="_blank"><li>ONLINE TEACHING JOBS (ESL)</li></a>
+							<a href="https://www.facebook.com/groups/TaiwanTeachingJobs/" target="_blank"><li>Taiwan English Teaching (ELT Search)</li></a>
+							<a href="https://www.facebook.com/hujiangrecruitment/" target="_blank"><li>Hujiang Recruitment</li></a>
+							<a href="https://www.facebook.com/groups/china.english.teachers/" target="_blank"><li>English Teachers in China 英语老师 Teaching Jobs in China</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">BLACKLISTED ❌</div>
+							<a href="https://www.reddit.com/r/tefl_blacklist/" target="_blank"><li>r/tefl_blacklist/</li></a>
+						</ul>							
+				</div>
+			</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper tools-column">
+				<div class="column">
+				<div class="title">TOOLS 🔧</div>
+						<ul>
+						<div class="subtitle">PRODUCTIVITY 📈</div>
+							<a href="https://www.notion.so/" target="_blank"><li>Notion</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">TO DO LIST ✅</div>
+							<a href="https://todoist.com/" target="_blank"><li>Todoist</li></a>
+							<a href="https://keep.google.com/" target="_blank"><li>Google Keep</li></a>
+						</ul>		
+						<ul>
+						<div class="subtitle">NOTE TAKING 📝</div>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">FOCUS 🔍</div>
+							<a href="https://www.marinaratimer.com/" target="_blank"><li>Marinara Timer</li></a>
+							<a href="https://pomofocus.io/" target="_blank"><li>Pomo Focus</li></a>
+							<a href="https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en" target="_blank"><li>Stay Focused</li></a>
+							<a href="https://www.hidefeed.com/" target="_blank"><li>Hide Feed</li></a>
+						</ul>								
+						<ul>
+						<div class="subtitle">VIDEO CONFERENCING 📹</div>
+							<a href="https://zoom.us/" target="_blank"><li>Zoom</li></a>
+							<a href="https://hangouts.google.com/" target="_blank"><li>Google Hangours</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">TIME TRACKING ⌚</div>
+							<a href="https://toggl.com/" target="_blank"><li>Toggl</li></a>
+							<a href="https://clockify.me/" target="_blank"><li>Clockify</li></a>
+							<a href="https://www.getharvest.com/" target="_blank"><li>Harvest</li></a>
+						</ul>						
+						<ul>
+						<div class="subtitle">PROJECT MANGEMENT 📋</div>							
+							<a href="https://trello.com/" target="_blank"><li>Trello</li></a>
+							<a href="https://asana.com/" target="_blank"><li>Asana</li></a>
+						</ul>
+						<ul>
+						<div class="subtitle">DESIGN 📐</div>
+							<a href="https://www.figma.com" target="_blank"><li>Figma</li></a>
+							<a href="https://www.canva.com" target="_blank"><li>Canva</li></a>							
+						</ul>
+						<ul>
+						<div class="subtitle">APP ORGANIZER 🗄️</div>
+							<a href="https://tryshift.com/" target="_blank"><li>Shift</li></a>
+							<a href="https://stationhq.com/" target="_blank"><li>Station</li></a>
+						</ul>
+				</div>
+			</div>
+			<!-- END LIST -->	
+
+<!-- LIST -->
+			<div class="column-wrapper youtube-column">
+				<div class="title"><img src="./img/youtube-icon.png" style="height:20px; margin-right:5px;margin-bottom:3px; ">YouTube</div>
+
+				<div class="column">
+
+						<ul>
+					<div class="subtitle">Travel 🗺️</div>
+							<a href="https://www.youtube.com/channel/UCt_NLJ4McJlCyYM-dSPRo7Q" target="_blank"><li>Lost LeBlanc</li></a>
+							<a href="https://www.youtube.com/channel/UCKr68ZJ4vv6VloNdnS2hjhA" target="_blank"><li>Harald Baldr</li></a>
+							<a href="https://www.youtube.com/c/JayAlvarrez/videos" target="_blank"><li>Jay Alvarrez</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">DIGITAL NOMAD 👨‍💻</div>
+							<a href="https://www.youtube.com/channel/UCbxtV_oVIXBtLRmyPfcLKVg" target="_blank"><li>Chris The Freelancer</li></a>
+							<a href="https://www.youtube.com/channel/UCNB_Oqy28vN6GZxq-ILVzBw" target="_blank"><li>Johnny FD</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">COUPLE 👫</div>
+							<a href="https://www.youtube.com/channel/UCKKlzR-Pt2uImPCtavSo2EA" target="_blank"><li>Wanderer Wanderess</li></a>
+							<a href="https://www.youtube.com/channel/UCEDrRCC0qRtPd5-sSa1hajw" target="_blank"><li>The Endless Adventure</li></a>
+							<a href="https://www.youtube.com/channel/UC0Tf8LUUtL3E24Dr28vXkbA" target="_blank"><li>Kristen & Siya</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">MINIMALISM 🎒</div>
+							<a href="https://www.youtube.com/channel/UC8EQAfueDGNeqb1ALm0LjHA" target="_blank"><li>Exploring Alternatives</li></a>
+							<a href="https://www.youtube.com/channel/UCt4iokl5l1SkaymW_iLAPqw" target="_blank"><li>Janell Kristina</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">VAN LIFE 🚐</div>
+							<a href="https://www.youtube.com/channel/UCI1xcEt-_GfV-tLxFkHFrew" target="_blank"><li>Rehabit8</li></a>
+							<a href="https://www.youtube.com/channel/UC3nDTf5HGomJHAaArwa0Qkw" target="_blank"><li>The Lills</li></a>
+						</ul>					
+						<ul>
+					<div class="subtitle">EXTRA</div>		
+							<a href="https://www.youtube.com/channel/UCdyFmw5rpxTUl6qwvPOM0uA" target="_blank"><li>DIA JIN</li></a>
+							<a href="https://www.youtube.com/channel/UCqDoCxA17f7NA7OmPBqS3uQ" target="_blank"><li>Tram In Taiwan</li></a>
+							<a href="https://www.youtube.com/channel/UC-a92fdT-geaN2953S6L9Dw" target="_blank"><li>TL Travel</li></a>
+						</ul>
+				</div>
+			</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper instagram-column">
+				<div class="column">
+				<div class="title"><img src="./img/instagram-icon.png" style="height:24px; margin-right:5px;margin-bottom:3px; ">Instagram</div>
+						<ul>
+					<div class="subtitle">Travel 🗺️</div>
+							<a href="https://www.instagram.com/thewanderlover/" target="_blank"><li>The Wander Lover</li></a>
+							<a href="https://www.instagram.com/chasingunique/" target="_blank"><li>Chasing Unique</li></a>
+							<a href="https://www.instagram.com/jaredrdiamond/" target="_blank"><li>Jared Diamond</li></a>
+							<a href="https://www.instagram.com/thesienicjourney/" target="_blank"><li>The Sienic Journey</li></a>
+							<a href="https://www.instagram.com/christabellatravels/" target="_blank"><li>Christa Bella Travels</li></a>
+							<a href="https://www.instagram.com/nomadicjulien/" target="_blank"><li>Nomadic Julien</li></a>				
+						</ul>
+				</div>
+			</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper facebook-column" style="display:none;">
+				<div class="column">
+				<div class="title"><img src="./img/facebook-icon.png" style="height:24px; margin-right:5px;margin-bottom:3px; ">Facebook</div>
+						<ul>
+							<a href="https://www.facebook.com/groups/DigitalNomadsAroundTheWorld" target="_blank"><li>Digital Nomads Around The World</li></a>
+							<a href="https://www.facebook.com/groups/1428340887415620/" target="_blank"><li>Global Digital Nomad Network</li></a>									
+						</ul>	
+						<ul>
+					<div class="subtitle">THAILAND 🇹🇭</div>							
+							<a href="https://www.facebook.com/groups/1395920320731833/" target="_blank"><li>Thai Visa Advice</li></a>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">BANGKOK 🛺</div>
+							<a href="https://www.facebook.com/groups/bkexpats.kc/" target="_blank"><li>Bangkok Expats</li></a>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">CHIANG MAI 🐘</div>
+							<a href="https://www.facebook.com/groups/chiangmaiexpat" target="_blank"><li>Chiang Mai Expats</li></a>
+							<a href="https://www.facebook.com/groups/nomadcoffee/" target="_blank"><li>Digital Nomad Coffee Club - Chiang Mai</li></a>
+						</ul>	
+						<ul>
+					<div class="subtitle">BALI 🇮🇩</div>
+							<a href="https://www.facebook.com/groups/288210044664068/" target="_blank"><li>Bali Expat Community</li></a>
+							<a href="https://www.facebook.com/groups/balidigitalnomads/" target="_blank"><li>Bali Digital Nomads</li></a>
+							<a href="https://www.facebook.com/groups/400734003434772/?multi_permalinks=1653503584824468" target="_blank"><li>Laws and Regulations In Indonesia</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">CANGGU, BALI 🏝️</div>
+							<a href="https://www.facebook.com/groups/canggucommunity" target="_blank"><li>Canggu Community</li></a>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">UBUD, BALI 🐒</div>
+							<a href="" target="_blank"><li>Item 1</li></a>
+							<a href="" target="_blank"><li>Item 1</li></a>
+						</ul>				
+				</div>
+			</div>
+			<!-- END LIST -->
+
+			<!-- LIST -->
+			<div class="column-wrapper reddit-column" style="display:none;">
+				<div class="column">
+				<div class="title"><img src="./img/reddit-icon.png" style="height:24px; margin-right:5px;margin-bottom:3px; ">Reddit</div>
+						<ul>
+							<a href="https://www.reddit.com/r/digitalnomad/" target="_blank"><li>r/digitalnomad/</li></a>
+							<a href="https://www.reddit.com/r/travel/" target="_blank"><li>r/travel/</li></a>
+							<a href="https://www.reddit.com/r/solotravel/" target="_blank"><li>r/solotravel/</li></a>
+							<a href="https://www.reddit.com/r/Shoestring/" target="_blank"><li>r/Shoestring/</li></a>
+							<a href="https://www.reddit.com/r/travelblogs/" target="_blank"><li>r/travelblogs/</li></a>
+							<a href="https://www.reddit.com/r/onebag/" target="_blank"><li>r/onebag/</li></a>
+						</ul>
+						<ul>
+					<div class="subtitle">THAILAND 🇹🇭</div>
+							<a href="https://www.reddit.com/r/Thailand/" target="_blank"><li>r/Thailand/</li></a>
+							<a href="https://www.reddit.com/r/ThailandTourism/" target="_blank"><li>r/ThailandTourism/</li></a>
+							<a href="https://www.reddit.com/r/Bangkok/" target="_blank"><li>r/Bangkok/</li></a>
+							<a href="https://www.reddit.com/r/chiangmai/" target="_blank"><li>r/chiangmai/</li></a>
+						</ul>
+				</div>
+			</div>
+			<!-- END LIST -->
+
+		</div>
+
+<!-- <br style="clear:both;">
+<br style="clear:both;"> -->
+<!-- <hr> -->
+
+
+<!-- 
+
+       oooooooooo.                  .       .                                         
+   .dP `888'   `Y8b               .o8     .o8                                  Yb     
+ .dP    888     888 oooo  oooo  .o888oo .o888oo  .ooooo.  ooo. .oo.    .oooo.o  `Yb   
+dP      888oooo888' `888  `888    888     888   d88' `88b `888P"Y88b  d88(  "8    `Yb 
+Yb      888    `88b  888   888    888     888   888   888  888   888  `"Y88b.     .dP 
+ `Yb    888    .88P  888   888    888 .   888 . 888   888  888   888  o.  )88b  .dP   
+   `Yb o888bood8P'   `V88V"V8P'   "888"   "888" `Y8bod8P' o888o o888o 8""888P' dP     
+                                                                                      
+-->
+
+
+<!-- 
+
+  .oooooo.                 .                                                       
+ d8P'  `Y8b              .o8                                                       
+888           .oooo.   .o888oo  .ooooo.   .oooooooo  .ooooo.  oooo d8b oooo    ooo 
+888          `P  )88b    888   d88' `88b 888' `88b  d88' `88b `888""8P  `88.  .8'  
+888           .oP"888    888   888ooo888 888   888  888   888  888       `88..8'   
+`88b    ooo  d8(  888    888 . 888    .o `88bod8P'  888   888  888        `888'    
+ `Y8bood8P'  `Y888""8o   "888" `Y8bod8P' `8oooooo.  `Y8bod8P' d888b        .8'     
+                                         d"     YD                     .o..P'      
+                                         "Y88888P'                     `Y8P'       
+ -->
+
+
+<div class="container" style="clear:both;">
+
+	<!-- Buttons -->
+
+	<h3 style="font-size:1.5em;text-shadow: 2px 2px 5px #959595;">Category 🗄️</h3>
+	<!-- <div class="hpLinks" onclick="searchAll()">All 💯</div>
+	<div class="hpLinks" onclick="searchCoworking()">Coworking 👨‍💻</div>
+	<div class="hpLinks" onclick="searchEnglishTeeaching()">English Teaching 🧑‍🏫</div>
+	<div class="hpLinks" onclick="searchPlaces()">📍Places</div>
+	<div class="hpLinks" onclick="searchVlog()">Vlog 📹</div>
+	<div class="hpLinks" onclick="searchJobs()">Jobs 👔</div>
+	<div class="hpLinks" onclick="searchPets()">Pets 🐾</div>
+	<div class="hpLinks" onclick="searchPlaces()">📍 Places</div>
+	<div class="hpLinks" onclick="searchHotels()">🛏️ HOTELS</div>
+	<div class="hpLinks" onclick="searchFlights()">✈️ FLIGHTS</div>
+	<div class="hpLinks" onclick="searchHealthInsurance()">🤕 HEALTH INSURANCE</div>
+	<div class="hpLinks" onclick="searchFinance()">💳 FINANCE</div> -->
+
+
+
+	<button class="buttonCategory" onclick="searchAll()">All 💯</button>
+	<button class="buttonCategory" onclick="searchTravel()">Travel 🗺️</button>
+	<button class="buttonCategory" onclick="searchPlaces()">Places 📍</button>
+	<button class="buttonCategory" onclick="searchFlights()">FLIGHTS ✈️</button>
+	<button class="buttonCategory" onclick="searchAccommodation()">ACCOMMODATION 🛏️</button>
+	<button class="buttonCategory" onclick="searchEnglishTeeaching()">English Teaching 🧑‍🏫</button>	
+	<button class="buttonCategory" onclick="searchTools()">TOOLS 🔧</button>
+
+	<button class="buttonCategory" onclick="searchVisa()">VISA 🛂</button>
+	<button class="buttonCategory" onclick="searchHealthInsurance()">HEALTH INSURANCE 🤕</button>
+	<button class="buttonCategory" onclick="searchFinance()">FINANCE 💳</button>
+
+	<button class="buttonCategory" onclick="searchCoworking()">Coworking 👨‍💻</button>
+
+	<button class="buttonCategory" onclick="searchFacebookGroup()">Facebook <img class="buttonImage" src="./img/facebook-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+	<button class="buttonCategory" onclick="searchYouTube()">YouTube <img class="buttonImage" src="./img/youtube-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+	<button class="buttonCategory" onclick="searchInstagram()">Instagram <img class="buttonImage" src="./img/instagram-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+	<button class="buttonCategory" onclick="searchReddit()">Reddit <img class="buttonImage" src="./img/reddit-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+
+
+	<button class="buttonCategory" onclick="searchVlog()">Vlog 📹</button>
+	<button class="buttonCategory" onclick="searchJobs()">Jobs 👔</button>
+	<button class="buttonCategory" onclick="searchPets()">Pets 🐾</button>
+
+	<button class="buttonCategory" onclick="searchProducts()">PRODUCTS 📱</button>
+
+	<button class="buttonCategory" onclick="searchBooks()">BOOKS 📘</button>
+	<button class="buttonCategory" onclick="searchApps()">APPS 📱</button>
+	<button class="buttonCategory" onclick="searchArticles()">ARTICLES 📄</button>
+
+	<button class="buttonCategory" onclick="searchCoding()">CODING 🖥️</button>
+	<button class="buttonCategory" onclick="searchCourses()">COURSES 🎓</button>
+
+<!-- </div> -->
+
+<!-- 
+
+ooooo                                          .    o8o                                 
+`888'                                        .o8    `"'                                 
+ 888          .ooooo.   .ooooo.   .oooo.   .o888oo oooo   .ooooo.  ooo. .oo.    .oooo.o 
+ 888         d88' `88b d88' `"Y8 `P  )88b    888   `888  d88' `88b `888P"Y88b  d88(  "8 
+ 888         888   888 888        .oP"888    888    888  888   888  888   888  `"Y88b.  
+ 888       o 888   888 888   .o8 d8(  888    888 .  888  888   888  888   888  o.  )88b 
+o888ooooood8 `Y8bod8P' `Y8bod8P' `Y888""8o   "888" o888o `Y8bod8P' o888o o888o 8""888P' 
+                                                                                                                                                                     
+ -->
+
+
+<!-- <div class="container" style="float:left;"> -->
+
+	<h3 style="font-size:1.5em; text-shadow: 2px 2px 5px #959595;">Places 📍</h3>
+
+
+	<button onclick="searchAsia()">Asia 🌏</button>
+	<button onclick="searchThailand()">Thailand 🇹🇭</button>
+	<button onclick="searchBangkok()">Bangkok 🛺</button>
+	<button onclick="searchChiangMai()">Chiang Mai 🐘</button>
+
+	<button onclick="searchIndonesia()">Indonesia 🇮🇩</button>
+	<button onclick="searchCangguBali()">Canggu, Bali 🏝️</button>
+
+
+</div>	
+
+<!-- 
+ooooooooooooo                               
+8'   888   `8                               
+     888       .oooo.    .oooooooo  .oooo.o 
+     888      `P  )88b  888' `88b  d88(  "8 
+     888       .oP"888  888   888  `"Y88b.  
+     888      d8(  888  `88bod8P'  o.  )88b 
+    o888o     `Y888""8o `8oooooo.  8""888P' 
+                        d"     YD           
+                        "Y88888P'           
+ -->
+
+<div class="container" style="clear:both;">
+
+	<h3 style="font-size:1.5em;text-shadow: 2px 2px 5px #959595;">Tags 🏷️</h3>
+
+	<button class="buttonTags" onclick="searchDigitalNomad()">Digital Nomad 👨‍💻</button>
+	<button class="buttonTags" onclick="searchInfluencer()">Influencer 🤳</button>
+	<button class="buttonTags" onclick="searchInspiration()">Inspiration 🔥</button>
+	<button class="buttonTags" onclick="searchMotivation()">Motivation 💪</button>
+	<button class="buttonTags" onclick="searchQuitYourJob()">Quit Your Job 😀</button>
+
+	<button class="buttonTags" onclick="searchColiving()">Coliving 🛋️</button>
+	<button class="buttonTags" onclick="searchJobSearch()">Job Search 🔍</button>
+	<button class="buttonTags" onclick="searchJobBoard()">Job Board 📋</button>
+	<button class="buttonTags" onclick="searchJobList()">📑 Job List</button>
+
+	<button class="buttonTags" onclick="searchProductivity()">Productivity 📈</button>
+	<button class="buttonTags" onclick="searchNoteTaking()">Note Taking 📝</button>
+	<button class="buttonTags" onclick="searchToDoList()">To Do List ✅</button>
+	<button class="buttonTags" onclick="searchProjectManagement()">Project Management 📋</button>
+	<button class="buttonTags" onclick="searchEmailMarketing()">Email Marketing ✉️</button>
+	<button class="buttonTags" onclick="searchTimeTracking()">Time Tracking ⌚</button>
+	<button class="buttonTags" onclick="searchBudget()">Budget 🧾</button>
+
+	<button class="buttonTags" onclick="searchMinimalism()">Minimalism 🎒</button>
+	<!-- <button class="buttonTags" onclick="searchSolo()">👤 Solo</button> -->
+	<button class="buttonTags" onclick="searchCouple()">Couple 👫</button>
+	<button class="buttonTags" onclick="searchVanLife()">Van Life 🚐</button>
+
+	<button class="buttonTags" onclick="searchPopularSearchese()">Popular Searches 🔍</button>
+
+</div>
+
+
+
+<!--
+/*
+           .              .o8       oooo                   
+   .dP   .o8             "888       `888            Yb     
+ .dP   .o888oo  .oooo.    888oooo.   888   .ooooo.   `Yb   
+dP       888   `P  )88b   d88' `88b  888  d88' `88b    `Yb 
+Yb       888    .oP"888   888   888  888  888ooo888    .dP 
+ `Yb     888 . d8(  888   888   888  888  888    .o  .dP   
+   `Yb   "888" `Y888""8o  `Y8bod8P' o888o `Y8bod8P' dP     
+*/                                                       
+-->
+
+
+<div class="container-full-width" style="min-height:1000px;">
+
+<table id="example" class="row-border hover compact responsive" style="width:100%">
+        <thead>
+            <tr>
+                <th id="thLinks" style="min-width:35%;">Links 🔗</th>
+                <th id="thCategory" style="min-width:15%;">Category 🗄️</th>
+                <th id="thTag" style="min-width:30%">Tag 🏷️</th>
+                <th id="thCity" >City 📍</th>
+                <th id="thCountry">Country 🗺️</th>
+                <th id="thContinent">🌎</th>
+            </tr>
+        </thead>
+
+    </table>		
+
+</div>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+		<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+
+		<!-- <script src="js/data.js"></script> -->
+		<script src="js/get-favicon.js"></script>
+		<script src="js/onclick-events-categories.js"></script>
+		<script src="js/onclick-events-tags.js"></script>
+		<script src="js/onclick-events-locations.js"></script>		
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!--   <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+
+		<script src="js/firebase-config.js"></script> -->
+		<!-- <script src="js/retrieve-data.js"></script> -->
+		<!-- <script src="js/send-data.js"></script>				 -->
+
+
+
+
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<script>
+		window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async></script>
+	</body>
+</html>

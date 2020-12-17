@@ -1,0 +1,89 @@
+<a href="/"> <-BACK </a>
+
+<h2>input.html</h2>
+
+
+
+  <label for="name">Name:</label> <input type="text" id="name" name="name"><br><br>
+
+  <label for="url">URL:</label> <input type="text" id="url" name="url"><br><br>
+
+  <label for="category">Category:</label> <input type="text" id="category" name="category"><br><br>
+
+  <label for="tag">Tag:</label> <input type="text" id="tag" name="tag"><br><br>
+
+  <label for="city">City:</label> <input type="text" id="city" name="city"><br><br> 
+  
+  <label for="country">Country:</label> <input type="text" id="country" name="country"><br><br> 
+
+  <label for="continent">Continent:</label> <input type="text" id="continent" name="continent"><br><br>   
+
+
+  <input id="submit" type="submit" value="Submit">
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+
+  <!-- Firebase data -->
+  <script src="js/firebase-config.js"></script>
+
+
+
+
+ <script>
+
+var name;
+var url;
+var category;
+var tag;
+var city;
+var country;
+var continent;
+
+var database = firebase.database();
+
+
+$("#submit").on("click", function() {
+
+	var name = $("#name").val();
+	var url = $("#url").val();
+	var category = $("#category").val();
+	var tag = $("#tag").val();
+	var city = $("#city").val();
+	var country = $("#country").val();
+	var continent = $("#continent").val();
+
+
+// ADD A NEW LINK
+    database.ref('ALL').child(name).set({
+    	Name: name,
+    	URL: url,
+    	Category: category,
+    	Tag: tag,
+    	City: city,
+    	Country: country,
+    	Continent: continent
+	}).then(clearInputs())	
+// END
+
+
+}); 	
+
+
+function clearInputs(){
+	$("#name").val("");
+	$("#url").val("");
+	$("#category").val("");
+	$("#tag").val("");
+	$("#city").val("");
+	$("#country").val("");
+	$("#continent").val("");
+}
+
+</script>  	

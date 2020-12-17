@@ -1,0 +1,319 @@
+html {
+width: 100%;
+height: 100%;
+position: relative;
+}
+body {
+width: 100%;
+height: 100%;
+position: relative;
+background-color:white;
+}
+
+.website-title, .title, .subtitle{
+	text-align:center;
+}
+
+.column-wrapper{
+	float:left;
+}
+
+.container-full-width{
+	width:100%;
+}
+
+
+.table-links-favicon{
+	height:16px;
+	margin-right:5px;
+	margin-bottom:2px;
+}
+
+
+/*
+                                     oooo  oooo         
+                                     `888  `888         
+ .oooo.o ooo. .oo.  .oo.    .oooo.    888   888         
+d88(  "8 `888P"Y88bP"Y88b  `P  )88b   888   888         
+`"Y88b.   888   888   888   .oP"888   888   888         
+o.  )88b  888   888   888  d8(  888   888   888         
+8""888P' o888o o888o o888o `Y888""8o o888o o888o        
+                                                        
+                                                        
+                                                        
+  .oooo.     .oooo.     .oooo.                          
+.dP""Y88b  .dP""Y88b   d8P'`Y8b                         
+      ]8P'       ]8P' 888    888 oo.ooooo.  oooo    ooo 
+    <88b.      .d8P'  888    888  888' `88b  `88b..8P'  
+     `88b.   .dP'     888    888  888   888    Y888'    
+o.   .88P  .oP     .o `88b  d88'  888   888  .o8"'88b   
+`8bd88P'   8888888888  `Y8bd8P'   888bod8P' o88'   888o 
+                                  888                   
+                                 o888o                                                                         
+*/
+
+/*
+
+  oooooooo  ooooooooo     .ooo                                  
+ dP""""""" d"""""""8'   .88'                                    
+d88888b.         .8'   d88'      oo.ooooo.  oooo    ooo         
+    `Y88b       .8'   d888P"Ybo.  888' `88b  `88b..8P'          
+      ]88      .8'    Y88[   ]88  888   888    Y888'    8888888 
+o.   .88P     .8'     `Y88   88P  888   888  .o8"'88b           
+`8bd88P'     .8'       `88bod8'   888bod8P' o88'   888o         
+                                  888                           
+                                 o888o                          
+                                                                
+*/
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.container{
+	padding:5px;
+	text-align: center;
+}
+
+	.column-wrapper{
+		width:100%;
+	}
+
+
+#thLinks, #thCategory{
+	font-size:15px;
+}
+
+td{
+	font-size:10px;
+	letter-spacing: 0px;
+}
+
+table.dataTable>tbody>tr.child span.dtr-title{
+	min-width:145px;	
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details{
+	width:95%;
+}
+
+.table-new-window-icon{
+	display:none;
+}
+
+.table-links-favicon{
+	height:12px;
+}
+
+li{
+	text-indent: 0px;
+	margin-left:25px;
+}
+
+#example_filter > label > input{
+	width:80%;
+}
+
+#example_filter{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.clear-search-button{
+	font-size:10px;
+	background-color:#eee;
+	float:left;
+	padding:0px;
+	border:0px solid white;
+
+}
+
+.table-category-image{
+	height:13px; 
+	margin-right:5px;
+}
+
+.buttonTags{
+	font-size:13px;
+	padding:4px 4px;
+	margin-bottom:4px;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th.dtr-control:before{
+	background-color:white;
+	border:0px solid white;
+	color:#4d4d4d;
+	box-shadow:0 0 0em #444;
+	font-size:16px;
+	top:60%;
+	font-weight:900;
+}
+
+.dtr-data{
+	display:inline-grid;
+}
+
+a{
+	/*border-bottom:1px dashed;*/
+	/*padding-bottom:2px;*/
+	color:#0d6efd;
+}
+
+}
+
+/*
+  oooooooo  ooooooooo     .ooo                          
+ dP""""""" d"""""""8'   .88'                            
+d88888b.         .8'   d88'      oo.ooooo.  oooo    ooo 
+    `Y88b       .8'   d888P"Ybo.  888' `88b  `88b..8P'  
+      ]88      .8'    Y88[   ]88  888   888    Y888'    
+o.   .88P     .8'     `Y88   88P  888   888  .o8"'88b   
+`8bd88P'     .8'       `88bod8'   888bod8P' o88'   888o 
+                                  888                   
+                                 o888o                  
+*/
+
+
+@media (min-width: 576px) { 
+.column-title, .column{
+	width:99.5%;
+	margin:auto;
+	}
+}
+
+
+/*
+
+  oooooooo  ooooooooo     .ooo                                             ooooooooo     .ooo    .ooooo.                          
+ dP""""""" d"""""""8'   .88'                                              d"""""""8'   .88'     d88'   `8.                        
+d88888b.         .8'   d88'      oo.ooooo.  oooo    ooo                         .8'   d88'      Y88..  .8' oo.ooooo.  oooo    ooo 
+    `Y88b       .8'   d888P"Ybo.  888' `88b  `88b..8P'                         .8'   d888P"Ybo.  `88888b.   888' `88b  `88b..8P'  
+      ]88      .8'    Y88[   ]88  888   888    Y888'         8888888          .8'    Y88[   ]88 .8'  ``88b  888   888    Y888'    
+o.   .88P     .8'     `Y88   88P  888   888  .o8"'88b                        .8'     `Y88   88P `8.   .88P  888   888  .o8"'88b   
+`8bd88P'     .8'       `88bod8'   888bod8P' o88'   888o                     .8'       `88bod8'   `boood8'   888bod8P' o88'   888o 
+                                  888                                                                       888                   
+                                 o888o                                                                     o888o                  
+                                                                                                                                  
+*/
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+		.column-wrapper{
+		width:50%;
+	}
+}
+
+/*
+
+ ooooooooo     .ooo    .ooooo.                                             .ooooo.    .ooooo.     .oooo.                          
+d"""""""8'   .88'     d88'   `8.                                          888' `Y88. 888' `Y88. .dP""Y88b                         
+      .8'   d88'      Y88..  .8' oo.ooooo.  oooo    ooo                   888    888 888    888       ]8P' oo.ooooo.  oooo    ooo 
+     .8'   d888P"Ybo.  `88888b.   888' `88b  `88b..8P'                     `Vbood888  `Vbood888     .d8P'   888' `88b  `88b..8P'  
+    .8'    Y88[   ]88 .8'  ``88b  888   888    Y888'         8888888            888'       888'   .dP'      888   888    Y888'    
+   .8'     `Y88   88P `8.   .88P  888   888  .o8"'88b                         .88P'      .88P'  .oP     .o  888   888  .o8"'88b   
+  .8'       `88bod8'   `boood8'   888bod8P' o88'   888o                     .oP'       .oP'     8888888888  888bod8P' o88'   888o 
+                                  888                                                                       888                   
+                                 o888o                                                                     o888o                  
+                                                                                                                                  
+
+*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+		.column-wrapper{
+		width:33.333%;
+	}
+}
+
+
+/*
+
+ .ooooo.    .ooooo.     .oooo.                                              .o    .oooo.     .oooo.     .oooo.                          
+888' `Y88. 888' `Y88. .dP""Y88b                                           o888  .dP""Y88b   d8P'`Y8b   d8P'`Y8b                         
+888    888 888    888       ]8P' oo.ooooo.  oooo    ooo                    888        ]8P' 888    888 888    888 oo.ooooo.  oooo    ooo 
+ `Vbood888  `Vbood888     .d8P'   888' `88b  `88b..8P'                     888      .d8P'  888    888 888    888  888' `88b  `88b..8P'  
+      888'       888'   .dP'      888   888    Y888'         8888888       888    .dP'     888    888 888    888  888   888    Y888'    
+    .88P'      .88P'  .oP     .o  888   888  .o8"'88b                      888  .oP     .o `88b  d88' `88b  d88'  888   888  .o8"'88b   
+  .oP'       .oP'     8888888888  888bod8P' o88'   888o                   o888o 8888888888  `Y8bd8P'   `Y8bd8P'   888bod8P' o88'   888o 
+                                  888                                                                             888                   
+                                 o888o                                                                           o888o                  
+                                                                                                                                        
+
+*/
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container{
+		width:95%;
+		margin:auto;
+	}
+
+
+		.column-wrapper{
+		width:25%;
+	}
+}
+
+/*
+
+      .o8                     oooo            .                          
+     "888                     `888          .o8                          
+ .oooo888   .ooooo.   .oooo.o  888  oooo  .o888oo  .ooooo.  oo.ooooo.    
+d88' `888  d88' `88b d88(  "8  888 .8P'     888   d88' `88b  888' `88b   
+888   888  888ooo888 `"Y88b.   888888.      888   888   888  888   888   
+888   888  888    .o o.  )88b  888 `88b.    888 . 888   888  888   888   
+`Y8bod88P" `Y8bod8P' 8""888P' o888o o888o   "888" `Y8bod8P'  888bod8P'   
+                                                             888         
+                                                            o888o        
+                                                                         
+  .o    .oooo.     .oooo.     .oooo.                                     
+o888  .dP""Y88b   d8P'`Y8b   d8P'`Y8b                                    
+ 888        ]8P' 888    888 888    888 oo.ooooo.  oooo    ooo     88     
+ 888      .d8P'  888    888 888    888  888' `88b  `88b..8P'      88     
+ 888    .dP'     888    888 888    888  888   888    Y888'    8888888888 
+ 888  .oP     .o `88b  d88' `88b  d88'  888   888  .o8"'88b       88     
+o888o 8888888888  `Y8bd8P'   `Y8bd8P'   888bod8P' o88'   888o     88     
+                                        888                              
+                                       o888o                             
+                                                                         
+*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.container{
+		width:85%;
+		margin:auto;
+	}
+
+	.column-wrapper{
+		width:25%;
+	}
+
+
+
+
+.travel-column, .jobs-column, .esl-column, .tools-column, .tools-column-two{
+	width:20%;
+}
+
+.youtube-column, .instagram-column, .reddit-column{
+	width:20%;
+}
+
+.facebook-column{
+	width:20%;
+}
+
+}
+
+@media (max-width: 767px) {
+	.mobile-hide{
+		display:none;
+	}
+}
+@media (min-width: 768px) {
+	.desktop-hide{
+		display:none;
+	}
+}

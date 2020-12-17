@@ -1,0 +1,562 @@
+/*
+ .o8                       .o8              
+"888                      "888              
+ 888oooo.   .ooooo.   .oooo888  oooo    ooo 
+ d88' `88b d88' `88b d88' `888   `88.  .8'  
+ 888   888 888   888 888   888    `88..8'   
+ 888   888 888   888 888   888     `888'    
+ `Y8bod8P' `Y8bod8P' `Y8bod88P"     .8'     
+                                .o..P'      
+                                `Y8P'       
+                                       */     
+
+
+
+
+body {
+	/*background-color:#eee;*/
+	/*background-color: rgba(230, 230, 230, .4);*/
+	background-color:white;
+  font-family: monospace;
+}
+
+
+.container{
+	position:relative;
+}
+
+
+
+/*
+
+                            .o8                 o8o      .                         .    o8o      .   oooo            
+                           "888                 `"'    .o8                       .o8    `"'    .o8   `888            
+oooo oooo    ooo  .ooooo.   888oooo.   .oooo.o oooo  .o888oo  .ooooo.          .o888oo oooo  .o888oo  888   .ooooo.  
+ `88. `88.  .8'  d88' `88b  d88' `88b d88(  "8 `888    888   d88' `88b           888   `888    888    888  d88' `88b 
+  `88..]88..8'   888ooo888  888   888 `"Y88b.   888    888   888ooo888 8888888   888    888    888    888  888ooo888 
+   `888'`888'    888    .o  888   888 o.  )88b  888    888 . 888    .o           888 .  888    888 .  888  888    .o 
+    `8'  `8'     `Y8bod8P'  `Y8bod8P' 8""888P' o888o   "888" `Y8bod8P'           "888" o888o   "888" o888o `Y8bod8P' 
+       */                                                                                                              
+                                                                                                                     
+                                                                                                                     
+
+
+
+
+.website-title, .title{
+	color: white;
+  	/*text-shadow: 1px 1px 5px black;*/
+  	text-shadow: 2px 2px 5px black;
+
+}
+
+.website-title, .title, .subtitle{
+	text-transform: uppercase;
+	font-weight:900;
+}
+
+.website-title {  
+  font-size: 2.5rem;
+  font-family: monospace;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  text-shadow: 1px 1px 15px black;
+
+}
+
+#bannerImage{
+	width:100%;
+	border-radius:4px;
+    -webkit-box-shadow: 1px 1px 7px 4px #666;
+    -moz-box-shadow: 1px 1px 7px 4px #666;
+    box-shadow: 1px 1px 7px 4px #666;
+
+    /*display:none;*/
+}
+
+.title{
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#eee;
+	border-bottom:1px solid #eee;
+}
+
+
+/*
+
+        o8o                                         .                   
+   .dP  `"'                                       .o8            Yb     
+ .dP   oooo  ooo. .oo.   oo.ooooo.  oooo  oooo  .o888oo  .oooo.o  `Yb   
+dP     `888  `888P"Y88b   888' `88b `888  `888    888   d88(  "8    `Yb 
+Yb      888   888   888   888   888  888   888    888   `"Y88b.     .dP 
+ `Yb    888   888   888   888   888  888   888    888 . o.  )88b  .dP   
+   `Yb o888o o888o o888o  888bod8P'  `V88V"V8P'   "888" 8""888P' dP     
+                          888                                           
+                         o888o                                          
+ 
+             */                                             
+
+
+
+input{
+  background: transparent;
+  border:0px solid #eee;;
+  border-radius:2px;
+  line-height:1.4;
+}
+
+input:hover{
+	background-color:rgba(255,255,255, .6);
+}
+
+input:focus{
+	outline-width: 0;
+	border:0px solid white;
+    outline: none;
+}
+
+#input-title::placeholder{
+	color:white;
+}
+
+#input-subtitle::placeholder{
+	color:black;
+}
+
+#input-subtitle:hover{
+	background-color: #eee;
+}
+
+#input-title{
+	text-transform: uppercase;
+	font-weight:900;
+	color:white;
+	font-size:1.5rem;
+  	text-shadow: 1px 1px 5px black;
+  	text-align:center;		
+}
+
+#input-subtitle{
+	text-transform: uppercase;
+	font-weight:900;
+	color:black;
+	font-size:1rem;
+  	text-align:center;
+  	text-shadow: 2px 2px 4px #ccc;	
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+
+
+/*
+
+        .    o8o      .   oooo                     
+      .o8    `"'    .o8   `888                     
+    .o888oo oooo  .o888oo  888   .ooooo.   .oooo.o 
+      888   `888    888    888  d88' `88b d88(  "8 
+      888    888    888    888  888ooo888 `"Y88b.  
+.o.   888 .  888    888 .  888  888    .o o.  )88b 
+Y8P   "888" o888o   "888" o888o `Y8bod8P' 8""888P' 
+                                                   
+           */                                    
+                                               
+       
+
+.title{	
+	font-size:1.5rem;
+}
+
+#top-links-title{
+	color: #172b4d;
+	text-shadow:1px 1px 2px #959595;
+}
+
+.subtitle{
+	font-size:.95rem;
+	padding-left:20px;
+	text-align:left;
+	/*width:50%;*/
+	/*display: inline-block;*/
+	/*text-shadow: 1px 1px 2px #959595;*/
+}
+
+.subtitleTwo{
+	padding-left:15px;
+}
+
+/*.subtitle:before, */
+.subtitle:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    /*margin: 0 auto;*/
+    /* This will center the border. */
+    width: 75%;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+.subtitle, li{
+	color:#172b4d;
+}
+
+.subtitle:before{
+    margin-bottom: 5px;
+}
+
+.subtitle:after{
+	margin-top:5px;
+}
+
+.subtitle{
+	/*margin-top:15px;*/
+	/*text-shadow:1px 1px 1px grey;*/
+}
+
+
+
+/*
+                    oooo                                            
+                    `888                                            
+ .ooooo.   .ooooo.   888  oooo  oooo  ooo. .oo.  .oo.   ooo. .oo.   
+d88' `"Y8 d88' `88b  888  `888  `888  `888P"Y88bP"Y88b  `888P"Y88b  
+888       888   888  888   888   888   888   888   888   888   888  
+888   .o8 888   888  888   888   888   888   888   888   888   888  
+`Y8bod8P' `Y8bod8P' o888o  `V88V"V8P' o888o o888o o888o o888o o888o 
+       */                                                             
+                                                                    
+                                                                    
+
+
+
+.column {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 4px;
+  /*padding-top:10px;*/
+  display:inline-block;
+
+
+/*	-webkit-box-shadow: 1px 1px 4px 1px #747474;
+    -moz-box-shadow: 1px 1px 4px 1px #747474;
+    box-shadow: 1px 1px 4px 1px #747474;  */
+}
+
+
+
+/*
+                   oooo         
+   .dP             `888  Yb     
+ .dP   oooo  oooo   888   `Yb   
+dP     `888  `888   888     `Yb 
+Yb      888   888   888     .dP 
+ `Yb    888   888   888   .dP   
+   `Yb  `V88V"V8P' o888o dP     
+       */                         
+                                
+                                
+
+            
+ .listUL{
+ 	width:50%;
+ 	display:inline-block;
+ 	float:left;
+ 	margin:0px;
+ }          
+
+
+ul{
+	list-style-type: none;
+}
+
+ul{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+li{
+	padding:2px 20px;
+
+	list-style-position: inside;
+	text-indent: -20px;
+	padding-left:40px;
+	padding-right:20px;
+	margin:4px 0px;
+
+	/*font-family: IBMPlexSans, Arial, sans-serif;*/
+	/*font-family:var(--bs-font-sans-serif);*/
+	font-family:'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: 0px;
+	font-size:.85em;
+	font-weight:400;	
+}
+
+.listTwo{
+	padding-left:35px;
+}
+
+a > li{
+	text-decoration:none;
+}
+
+li:hover{
+	color: #0a58ca;
+	/*background-color: #eee;*/
+    background-color: #f8f8f8;
+
+	-webkit-box-shadow: 1px 1px 3px 1px #c7c7c7;
+    -moz-box-shadow: 1px 1px 3px 1px #c7c7c7;
+    box-shadow: 1px 1px 3px 1px #c7c7c7;
+    z-index:4;	
+}
+
+
+
+
+/*                        
+   .dP           Yb     
+ .dP    .oooo.    `Yb   
+dP     `P  )88b     `Yb 
+Yb      .oP"888     .dP 
+ `Yb   d8(  888   .dP   
+   `Yb `Y888""8o dP     
+           */             
+                        
+                        
+
+
+
+a {
+    color: #172b4d;
+    text-decoration: none;
+	/*border-bottom: 1px dashed #666666;*/
+}
+
+a:hover{
+	color: #0a58ca;
+    cursor: pointer;
+	border-bottom: 1px dashed #0a58ca;
+}
+
+ul > a[target="_blank"]:after, ul > a:hover::after{
+    float: right;
+    position:relative;
+    top:-23px;
+    right:9px;
+} 
+
+ul > a[target="_blank"]:after {
+    content: url(../img/new-window-icon-white.png);
+}
+
+ul > a:hover::after {
+    float: right;
+    position:relative;
+    top:-22px;
+	right:9px;
+	z-index:1;
+    content: url(../img/new-window-icon.png);	
+}
+
+
+/*
+
+        .o8                       .       .                                         
+   .dP "888                     .o8     .o8                                  Yb     
+ .dP    888oooo.  oooo  oooo  .o888oo .o888oo  .ooooo.  ooo. .oo.    .oooo.o  `Yb   
+dP      d88' `88b `888  `888    888     888   d88' `88b `888P"Y88b  d88(  "8    `Yb 
+Yb      888   888  888   888    888     888   888   888  888   888  `"Y88b.     .dP 
+ `Yb    888   888  888   888    888 .   888 . 888   888  888   888  o.  )88b  .dP   
+   `Yb  `Y8bod8P'  `V88V"V8P'   "888"   "888" `Y8bod8P' o888o o888o 8""888P' dP     
+
+*/
+
+button{
+	font-size:.9em;
+	/*font-family: IBMPlexSans, Arial, sans-serif;*/
+	font-family:'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+	background-color:white;
+	border: 1px solid #d2d2d2;
+	border-radius:3px;
+	padding:12px 20px;
+	padding-bottom:10px;
+	/*margin:2px;*/
+	text-transform: uppercase;
+	color:#172b4d;
+
+/*	-webkit-box-shadow: 1px 1px 3px 1px rgba(230, 230, 230, 1);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(230, 230, 230, 1);
+    box-shadow: 1px 1px 3px 1px rgba(230, 230, 230, 1);*/
+}
+
+.buttonCategory{
+	margin-bottom:4px;
+}
+
+button:hover{
+	background-color:#eeeeee;
+}
+
+.buttonTags{
+	font-size:.9em;
+	font-family:'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+	/*margin:5px;*/
+	/*float:left;*/
+	text-transform:none;
+	padding: 6px 10px;	
+	margin-bottom:4px;
+}
+
+
+
+
+
+/*
+           .              .o8       oooo                   
+   .dP   .o8             "888       `888            Yb     
+ .dP   .o888oo  .oooo.    888oooo.   888   .ooooo.   `Yb   
+dP       888   `P  )88b   d88' `88b  888  d88' `88b    `Yb 
+Yb       888    .oP"888   888   888  888  888ooo888    .dP 
+ `Yb     888 . d8(  888   888   888  888  888    .o  .dP   
+   `Yb   "888" `Y888""8o  `Y8bod8P' o888o `Y8bod8P' dP     
+*/                                                       
+                                                           
+                                                           
+table{
+	border:1px solid black;
+}
+
+
+#example_wrapper{
+	min-height:1000px;
+	width:98%;
+	margin:auto;
+}
+
+#example_filter{
+	width:100%;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+#example_filter > label > input{
+	width:20%;
+}
+
+
+th{
+	font-size:1.5em;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px #959595;
+
+}
+
+td{
+	/*font-family: IBMPlexSans, Arial, sans-serif;*/
+font-family:'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+	font-size:.75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+tr > td:hover{
+	/*background-color:blue;*/
+}
+
+td > .tdTag{
+	font-size:.9em;
+	width:15%;
+	white-space: pre-wrap;
+	border-bottom:0px solid white;
+	padding-top:2px;
+	padding-bottom:0px;
+}
+
+.tableTags{
+	padding:5px 8px;
+	padding-bottom:3px;
+	border-radius:2px;
+	background-color:rgba(230,230,230, .3);
+	margin:2px;
+}
+
+/*.tableTags > td{
+	padding-top:2px;
+	padding-bottom:0px;
+}*/
+
+/*
+
+ .o88o.                           .            
+ 888 `"                         .o8            
+o888oo   .ooooo.  ooo. .oo.   .o888oo  .oooo.o 
+ 888    d88' `88b `888P"Y88b    888   d88(  "8 
+ 888    888   888  888   888    888   `"Y88b.  
+ 888    888   888  888   888    888 . o.  )88b 
+o888o   `Y8bod8P' o888o o888o   "888" 8""888P' 
+                                               
+*/
+
+
+
+
+
+/*
+
+Lists
+
+font-family:'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+font-family:var(--bs-font-sans-serif);
+
+font-family: IBMPlexSans, Arial, sans-serif;
+font-family: monospace;
+
+
+*/
+
+
+
+/*
+                    oooo                              
+                    `888                              
+ .ooooo.   .ooooo.   888   .ooooo.  oooo d8b  .oooo.o 
+d88' `"Y8 d88' `88b  888  d88' `88b `888""8P d88(  "8 
+888       888   888  888  888   888  888     `"Y88b.  
+888   .o8 888   888  888  888   888  888     o.  )88b 
+`Y8bod8P' `Y8bod8P' o888o `Y8bod8P' d888b    8""888P' 
+                     */                                 
+           
+/*                                                      
+Dark Blue Font     
+color: #172b4d;
+
+Border Color
+
+Buttons
+border: 1px solid rgba(0, 0, 0, .125);
+
+border: 1px solid rgba(230, 230, 230, 1);
+= #e6e6e6
+
+color: #d2d2d2;
+
+Icon Shadow - Subtitle Shadow
+
+text-shadow: 2px 2px 5px black;
+
+
+*/
