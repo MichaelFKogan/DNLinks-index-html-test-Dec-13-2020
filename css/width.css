@@ -79,6 +79,15 @@ o.   .88P     .8'     `Y88   88P  888   888  .o8"'88b
 		width:100%;
 	}
 
+.buttonCategory, .buttonPlaces{
+	padding:5px 10px;
+	font-size:12px;
+}
+
+h3{
+	margin-top:5px;
+	margin-bottom:10px;
+}
 
 #thLinks, #thCategory{
 	font-size:15px;
@@ -174,11 +183,17 @@ o.   .88P     .8'     `Y88   88P  888   888  .o8"'88b
 */
 
 
-@media (min-width: 576px) { 
+@media (min-width: 575.99px) { 
 .column-title, .column{
 	width:99.5%;
 	margin:auto;
 	}
+}
+@media (min-width: 576px) { 
+.table-category-image{
+	height:16px;
+	margin-right:5px;
+	margin-bottom:2px;
 }
 
 
@@ -290,7 +305,11 @@ o888o 8888888888  `Y8bd8P'   `Y8bd8P'   888bod8P' o88'   888o     88
 		width:25%;
 	}
 
-
+.table-category-image{
+	height:16px;
+	margin-right:5px;
+	margin-bottom:2px;
+}
 
 
 .travel-column, .jobs-column, .esl-column, .tools-column, .tools-column-two{

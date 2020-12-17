@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+var array;
 var data = [];
 
 // POPULATE HOMPAGE - ALL

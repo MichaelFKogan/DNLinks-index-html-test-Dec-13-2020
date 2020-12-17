@@ -16,7 +16,7 @@ $('#example').DataTable().search("").draw();
 }
 
 function searchCoworking(){
-	if($('input').val() != 'Coworking'){$('#example').DataTable().search("Coworking").draw();$('input').val('Coworking');}
+	if($('input').val() != 'Coworking'){$('#example').DataTable().search("Coworking").draw();$('input').val('Coworking');$('#empty-div').html("Coworking ");}
 	else{$('#example').DataTable().search("").draw();$('input').val('');}	
 }
 

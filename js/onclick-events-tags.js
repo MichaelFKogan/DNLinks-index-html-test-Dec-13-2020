@@ -60,3 +60,29 @@ function searchMuayThai(){
 	if($('input').val() != 'Muay Thai'){$('#example').DataTable().search("Muay Thai").draw();$('input').val('Muay Thai');}
 	else{$('#example').DataTable().search("").draw();$('input').val('');}	
 }
+
+
+
+var data = [];
+
+// POPULATE HOMPAGE - ALL
+var ref = firebase.database().ref("ALL");
+
+ref.once("value", function(snapshot) {
+
+var data = [];
+		// console.log(snapshot.val());
+		// console.log(data);
+
+	snapshot.forEach(function(childNodes){
+
+	// console.log(childNodes.val());
+	console.log(childNodes.val().Tag);	
+
+		// if(childNodes.val().City == "Bangkok 🌶️"){
+		// 	console.log("YES")
+			data.push(childNodes.val());
+		// }
+	});
+
+});

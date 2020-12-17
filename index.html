@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Nomad Links</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta property="og:title" content="">
@@ -17,6 +17,8 @@
 
 
 		<meta name="theme-color" content="#fafafa">
+
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
 
 
  <!-- DataTables Init Files CSS -->
@@ -54,7 +56,7 @@
 				<img id="bannerImage" class="mobile-hide" src="img/banner.jpg">
 				<div class="website-title">Digital Nomad Links</div>
 		</div>
-  <h3 style="text-align:center;"><a href="input.html" >Input.html</a></h3>
+  <h3 style="text-align:center;margin-bottom:0px;"><a href="input.html" >Input.html</a></h3>
 		<br>
 
 
@@ -440,60 +442,172 @@ Yb      888    `88b  888   888    888     888   888   888  888   888  `"Y88b.   
  -->
 
 
-<div class="container" style="clear:both;">
+<div class="container" style="clear:both; ">
 
+
+<div class="categories-div"  style="display:block;float:left;">
 	<!-- Buttons -->
 
-	<h3 style="font-size:1.5em;text-shadow: 2px 2px 5px #959595;">Category 🗄️</h3>
-	<!-- <div class="hpLinks" onclick="searchAll()">All 💯</div>
-	<div class="hpLinks" onclick="searchCoworking()">Coworking 👨‍💻</div>
-	<div class="hpLinks" onclick="searchEnglishTeeaching()">English Teaching 🧑‍🏫</div>
-	<div class="hpLinks" onclick="searchPlaces()">📍Places</div>
-	<div class="hpLinks" onclick="searchVlog()">Vlog 📹</div>
-	<div class="hpLinks" onclick="searchJobs()">Jobs 👔</div>
-	<div class="hpLinks" onclick="searchPets()">Pets 🐾</div>
-	<div class="hpLinks" onclick="searchPlaces()">📍 Places</div>
-	<div class="hpLinks" onclick="searchHotels()">🛏️ HOTELS</div>
-	<div class="hpLinks" onclick="searchFlights()">✈️ FLIGHTS</div>
-	<div class="hpLinks" onclick="searchHealthInsurance()">🤕 HEALTH INSURANCE</div>
-	<div class="hpLinks" onclick="searchFinance()">💳 FINANCE</div> -->
+	<h3 style="font-size:1.5em;text-shadow: 2px 2px 5px #959595;margin-top:0px;">Category 🗄️</h3>
+
+	<ul class="top-page-list" style="float:left;">
+		<li>💯 <a class="category-list" onclick="searchAll()">All</a></li>
+		<li>🗺️ <a class="category-list" onclick="searchTravel()">Travel</a></li>
+		<li>📍 <a class="category-list" onclick="searchPlaces()">Places</a></li>
+		<li>🛫 <a class="category-list" onclick="searchFlights()">Flights</a></li>
+		<li>🛏️ <a class="category-list" onclick="searchAccommodation()">Accommodation</a></li>
+		<li>🧑‍🏫 <a class="category-list" onclick="searchEnglishTeeaching()">English Teaching</a></li>	
+		<li>🔧 <a class="category-list" onclick="searchTools()">Tools</a></li>
+
+		<li>🛂 <a class="category-list" onclick="searchVisa()">Visa</a></li>
+		<li>🤕 <a class="category-list" onclick="searchHealthInsurance()">Health Insurance</a></li>
+		<li>💳 <a class="category-list" onclick="searchFinance()">Finance</a></li>
+
+		<li>👨‍💻 <a class="category-list" onclick="searchCoworking()">Coworking</a></li>
+
+		<li> <img class="buttonImage" src="./img/facebook-icon.png" style="height:22px;margin-right:8px;"><a class="category-list" onclick="searchFacebookGroup()">Facebook</a></li>
+	</ul>
+
+	<ul class="top-page-list" style="float:left;margin-left:60px">
+		<li><img class="buttonImage" src="./img/youtube-icon.png" style="height:16px; margin-right:6px;"><a class="category-list" onclick="searchYouTube()">YouTube</a></li>
+		<li><img class="buttonImage" src="./img/instagram-icon.png" style="height:22px; margin-right:7px;"><a class="category-list" onclick="searchInstagram()">Instagram</a></li>
+		<li> <img class="buttonImage" src="./img/reddit-icon.png" style="height:22px; margin-right:8px;"><a class="category-list" onclick="searchReddit()" >Reddit</a></li>
 
 
+		<li>📹 <a class="category-list" onclick="searchVlog()" >Vlog</a></li>
+		<li>👔 <a class="category-list" onclick="searchJobs()">Jobs</a></li>
+		<li>🐾 <a class="category-list" onclick="searchPets()">Pets</a></li>
 
-	<button class="buttonCategory" onclick="searchAll()">All 💯</button>
-	<button class="buttonCategory" onclick="searchTravel()">Travel 🗺️</button>
-	<button class="buttonCategory" onclick="searchPlaces()">Places 📍</button>
-	<button class="buttonCategory" onclick="searchFlights()">FLIGHTS ✈️</button>
-	<button class="buttonCategory" onclick="searchAccommodation()">ACCOMMODATION 🛏️</button>
-	<button class="buttonCategory" onclick="searchEnglishTeeaching()">English Teaching 🧑‍🏫</button>	
-	<button class="buttonCategory" onclick="searchTools()">TOOLS 🔧</button>
+		<li>📱 <a class="category-list" onclick="searchProducts()">Products</a></li>
 
-	<button class="buttonCategory" onclick="searchVisa()">VISA 🛂</button>
-	<button class="buttonCategory" onclick="searchHealthInsurance()">HEALTH INSURANCE 🤕</button>
-	<button class="buttonCategory" onclick="searchFinance()">FINANCE 💳</button>
+		<li>📘 <a class="category-list" onclick="searchBooks()">Books</a></li>
+		<li>📱 <a class="category-list" onclick="searchApps()">Apps</a></li>
+		<li>📄 <a class="category-list" onclick="searchArticles()">Artcles</a></li>
 
-	<button class="buttonCategory" onclick="searchCoworking()">Coworking 👨‍💻</button>
+		<li>🖥️ <a class="category-list" onclick="searchCoding()" >Coding</a></li>
+		<li>🎓 <a class="category-list" onclick="searchCourses()">Courses</a></li>
+	</ul>
 
-	<button class="buttonCategory" onclick="searchFacebookGroup()">Facebook <img class="buttonImage" src="./img/facebook-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
-	<button class="buttonCategory" onclick="searchYouTube()">YouTube <img class="buttonImage" src="./img/youtube-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
-	<button class="buttonCategory" onclick="searchInstagram()">Instagram <img class="buttonImage" src="./img/instagram-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
-	<button class="buttonCategory" onclick="searchReddit()">Reddit <img class="buttonImage" src="./img/reddit-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+</div>
 
 
-	<button class="buttonCategory" onclick="searchVlog()">Vlog 📹</button>
-	<button class="buttonCategory" onclick="searchJobs()">Jobs 👔</button>
-	<button class="buttonCategory" onclick="searchPets()">Pets 🐾</button>
+<div class="categories-div" style="display:block;float:left;margin-left:120px;">
+	<h3 style="font-size:1.5em;text-shadow: 2px 2px 5px #959595;margin-top:0px;">Places 📍</h3>
 
-	<button class="buttonCategory" onclick="searchProducts()">PRODUCTS 📱</button>
+	<ul class="top-page-list" style="float:left;">
+		<li>🌏 <a class="category-list" onclick="searchAsia()">Asia</a></li>
+		<li>🇹🇭 <a class="category-list" onclick="searchThailand()">Thailand</a></li>
+		<li>🛺 <a class="category-list" onclick="searchBangkok()">Bangkok</a></li>
+		<li>🐘 <a class="category-list" onclick="searchChiangMai()">Chiang Mai</a></li>
 
-	<button class="buttonCategory" onclick="searchBooks()">BOOKS 📘</button>
-	<button class="buttonCategory" onclick="searchApps()">APPS 📱</button>
-	<button class="buttonCategory" onclick="searchArticles()">ARTICLES 📄</button>
+		<li>🇮🇩 <a class="category-list" onclick="searchIndonesia()">Indonesia</a></li>
+		<li>🏝️ <a class="category-list" onclick="searchCangguBali()">Canggu, Bali</a></li>	
+		<li>🐒 <a class="category-list" onclick="searchUbudBali()">Ubud, Bali</a></li>
 
-	<button class="buttonCategory" onclick="searchCoding()">CODING 🖥️</button>
-	<button class="buttonCategory" onclick="searchCourses()">COURSES 🎓</button>
+		<li>🇻🇳 <a class="category-list" onclick="searchVietnam()">Vietnam</a></li>
+		<li>🍲 <a class="category-list" onclick="searchHanoi()">Hanoi</a></li>
+		<li>🛵 <a class="category-list" onclick="searchSaigon()">Ho Chi Minh City</a></li>
 
-<!-- </div> -->
+		<li>🇹🇼 <a class="category-list" onclick="searchTaiwan()">Taiwan</a></li>
+		<li>🥢 <a class="category-list" onclick="searchTaipei()">Taipei</a></li>
+	</ul>
+
+	<ul class="top-page-list" style="float:left;margin-left:60px">
+		<li>🇯🇵 <a class="category-list" onclick="searchJapan()" >Japan</a></li>
+		<li>⛩️ <a class="category-list" onclick="searchTokyo()">Tokyo</a></li>
+		<li>🎋 <a class="category-list" onclick="searchKyoto()">Kyoto</a></li>
+		<li>🏯 <a class="category-list" onclick="searchOsaka()" >Osaka</a></li>
+
+		<li>🇰🇷 <a class="category-list" onclick="searchKorea()">Korea</a></li>
+		<li>🥘 <a class="category-list" onclick="searchSeoul()">Seoul</a></li>
+		<li>🍚 <a class="category-list" onclick="searchBusan()">Busan</a></li>
+
+		<li>🇨🇳 <a class="category-list" onclick="searchChina()">China</a></li>
+		<li>🐼 <a class="category-list" onclick="searchBeijing()">Beijing</a></li>
+		<li>🥟 <a class="category-list" onclick="searchShanghai()">Shanghai</a></li>
+
+		<li>🇭🇰 <a class="category-list" onclick="searchHongKong()" >Hong Kong</a></li>
+		<li>🇮🇳 <a class="category-list" onclick="searchIndia()">India</a></li>
+	</ul>
+
+</div>
+
+<div style="display:none;">
+	<div style="float:left;display:grid;width:170px;margin-left:60px;">
+
+	<button class="buttonCategory" onclick="searchAll()" style="background-color: #5b5ea6;">All 💯</button>
+	<button class="buttonCategory" onclick="searchTravel()" style="background-color: #282c34;color:#61dafb">Travel 🗺️</button>
+	<button class="buttonCategory" onclick="searchPlaces()" style="background-color: black;">Places 📍</button>
+	<button class="buttonCategory" onclick="searchFlights()" style="background-color:#bc70a4">Flights 🛫</button>
+	<button class="buttonCategory" onclick="searchAccommodation()" style="background-color:#95dee3;color:black;">Accommodation 🛏️</button>
+	<button class="buttonCategory" onclick="searchEnglishTeeaching()" style="background-color:#ce3175;">English Teaching 🧑‍🏫</button>	
+	<button class="buttonCategory" onclick="searchTools()" style="background-color:#0E65C9;">Tools 🔧</button>
+
+	<button class="buttonCategory" onclick="searchVisa()" style="background-color:#00a591;">Visa 🛂</button>
+	<button class="buttonCategory" onclick="searchHealthInsurance()" style="background-color:#b565a7;">Health Insurance 🤕</button>
+	<button class="buttonCategory" onclick="searchFinance()" style="background-color:#dd4132;">Finance 💳</button>
+
+	<button class="buttonCategory" onclick="searchCoworking()" style="background-color:#bfd641;color:black">Coworking 👨‍💻</button>
+
+	<button class="buttonCategory" onclick="searchFacebookGroup()" style="border:1px solid gray;color:#E10098;">Facebook <img class="buttonImage" src="./img/facebook-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+</div>
+
+<div style="float:left;display:grid;width:170px;margin-left:20px;">
+	<button class="buttonCategory" onclick="searchYouTube()" style="background-color:#f2552c;">YouTube <img class="buttonImage" src="./img/youtube-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+	<button class="buttonCategory" onclick="searchInstagram()" style="background-color:#ecdb54;color:black;">Instagram <img class="buttonImage" src="./img/instagram-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+	<button class="buttonCategory" onclick="searchReddit()" style="background-color:#95dee3;color:black;">Reddit <img class="buttonImage" src="./img/reddit-icon.png" style="height:14px; margin-right:5px;margin-bottom:0px; "></button>
+
+
+	<button class="buttonCategory" onclick="searchVlog()" style="background-color:black;">Vlog 📹</button>
+	<button class="buttonCategory" onclick="searchJobs()" style="background-color:#026e00;">Jobs 👔</button>
+	<button class="buttonCategory" onclick="searchPets()" style="background-color:#3776ab;">Pets 🐾</button>
+
+	<button class="buttonCategory" onclick="searchProducts()" style="background-color:#282c34;color:#61dafb">Products 📱</button>
+
+	<button class="buttonCategory" onclick="searchBooks()" style="background-color:#e12020;">Books 📘</button>
+	<button class="buttonCategory" onclick="searchApps()" style="background-color:#f7786b;">Apps 📱</button>
+	<button class="buttonCategory" onclick="searchArticles()" style="background-color:#ff3e00;">Artcles 📄</button>
+
+	<button class="buttonCategory" onclick="searchCoding()" style="background-color:#00a591;">Coding 🖥️</button>
+	<button class="buttonCategory" onclick="searchCourses()" style="background-color:#5b5ea6;">Courses 🎓</button>
+
+</div>
+</div>
+
+<!-- 	<button class="buttonCategory" onclick="searchAll()" style="background-color: #5b5ea6;">All</button>
+	<button class="buttonCategory" onclick="searchTravel()" style="background-color: #282c34;color:#61dafb">Travel </button>
+	<button class="buttonCategory" onclick="searchPlaces()" style="background-color: black;">Places</button>
+	<button class="buttonCategory" onclick="searchFlights()" style="background-color:#bc70a4">Flights</button>
+	<button class="buttonCategory" onclick="searchAccommodation()" style="background-color:#95dee3;color:black;">Accommodation </button>
+	<button class="buttonCategory" onclick="searchEnglishTeeaching()" style="background-color:#ce3175;">English Teaching</button>	
+	<button class="buttonCategory" onclick="searchTools()" style="background-color:#0E65C9;">Tools</button>
+
+	<button class="buttonCategory" onclick="searchVisa()" style="background-color:#00a591;">Visa</button>
+	<button class="buttonCategory" onclick="searchHealthInsurance()" style="background-color:#b565a7;">Health Insurance</button>
+	<button class="buttonCategory" onclick="searchFinance()" style="background-color:#dd4132;">Finance</button>
+
+	<button class="buttonCategory" onclick="searchCoworking()" style="background-color:#bfd641;color:black">Coworking</button>
+
+	<button class="buttonCategory" onclick="searchFacebookGroup()" style="border:1px solid gray;color:#E10098;">Facebook</button>
+	<button class="buttonCategory" onclick="searchYouTube()" style="background-color:#f2552c;">YouTube</button>
+	<button class="buttonCategory" onclick="searchInstagram()" style="background-color:#ecdb54;color:black;">Instagram</button>
+	<button class="buttonCategory" onclick="searchReddit()" style="background-color:#95dee3;color:black;">Reddit</button>
+
+
+	<button class="buttonCategory" onclick="searchVlog()" style="background-color:black;">Vlog</button>
+	<button class="buttonCategory" onclick="searchJobs()" style="background-color:#026e00;">Jobs</button>
+	<button class="buttonCategory" onclick="searchPets()" style="background-color:#3776ab;">Pets</button>
+
+	<button class="buttonCategory" onclick="searchProducts()" style="background-color:#282c34;color:#61dafb">Products</button>
+
+	<button class="buttonCategory" onclick="searchBooks()" style="background-color:#e12020;">Books</button>
+	<button class="buttonCategory" onclick="searchApps()" style="background-color:#f7786b;">Apps</button>
+	<button class="buttonCategory" onclick="searchArticles()" style="background-color:#ff3e00;">Artcles</button>
+
+	<button class="buttonCategory" onclick="searchCoding()" style="background-color:#00a591;">Coding </button>
+	<button class="buttonCategory" onclick="searchCourses()" style="background-color:#5b5ea6;">Courses</button>	 -->
+
+</div>
 
 <!-- 
 
@@ -508,18 +622,18 @@ o888ooooood8 `Y8bod8P' `Y8bod8P' `Y888""8o   "888" o888o `Y8bod8P' o888o o888o 8
  -->
 
 
-<!-- <div class="container" style="float:left;"> -->
+<div class="container" style="clear:both;">
 
 	<h3 style="font-size:1.5em; text-shadow: 2px 2px 5px #959595;">Places 📍</h3>
 
 
-	<button onclick="searchAsia()">Asia 🌏</button>
-	<button onclick="searchThailand()">Thailand 🇹🇭</button>
-	<button onclick="searchBangkok()">Bangkok 🛺</button>
-	<button onclick="searchChiangMai()">Chiang Mai 🐘</button>
+	<button class="buttonPlaces" onclick="searchAsia()">Asia 🌏</button>
+	<button class="buttonPlaces" onclick="searchThailand()">Thailand 🇹🇭</button>
+	<button class="buttonPlaces" onclick="searchBangkok()">Bangkok 🛺</button>
+	<button class="buttonPlaces" onclick="searchChiangMai()">Chiang Mai 🐘</button>
 
-	<button onclick="searchIndonesia()">Indonesia 🇮🇩</button>
-	<button onclick="searchCangguBali()">Canggu, Bali 🏝️</button>
+	<button class="buttonPlaces" onclick="searchIndonesia()">Indonesia 🇮🇩</button>
+	<button class="buttonPlaces" onclick="searchCangguBali()">Canggu, Bali 🏝️</button>
 
 
 </div>	
@@ -583,7 +697,7 @@ Yb       888    .oP"888   888   888  888  888ooo888    .dP
 -->
 
 
-<div class="container-full-width" style="min-height:1000px;">
+<!-- <div class="container-full-width" style="min-height:1000px;">
 
 <table id="example" class="row-border hover compact responsive" style="width:100%">
         <thead>
@@ -591,7 +705,25 @@ Yb       888    .oP"888   888   888  888  888ooo888    .dP
                 <th id="thLinks" style="min-width:35%;">Links 🔗</th>
                 <th id="thCategory" style="min-width:15%;">Category 🗄️</th>
                 <th id="thTag" style="min-width:30%">Tag 🏷️</th>
-                <th id="thCity" >City 📍</th>
+                <th id="thCity" style="width:8%" >City 📍</th>
+                <th id="thCountry">Country 🗺️</th>
+                <th id="thContinent">🌎</th>
+            </tr>
+        </thead>
+
+    </table>		
+
+</div> -->
+
+<div class="container-full-width" style="min-height:1000px;">
+
+<table id="example" class="row-border hover compact responsive" style="width:100%">
+        <thead>
+            <tr>
+                <th id="thLinks">Links 🔗</th>
+                <th id="thCategory">Category 🗄️</th>
+                <th id="thTag">Tag 🏷️</th>
+                <th id="thCity">City 📍</th>
                 <th id="thCountry">Country 🗺️</th>
                 <th id="thContinent">🌎</th>
             </tr>
